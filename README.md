@@ -20,6 +20,7 @@ Install required Python modules:
 
 ```bash
 # pip install tabulate
+```
 
  ## 📂 Project Structure
 
@@ -159,3 +160,4 @@ Add Admin login system
 👨‍💻 Developed by SHREYANSH JAISWAL 
 📌 Language: Python 3.x
 📌 Database: SQLite3
+
