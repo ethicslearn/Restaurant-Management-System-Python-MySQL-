@@ -46,14 +46,6 @@ Add Menu Item → Insert new dish with name, price, and category.
 
 View Menu → Display menu items in a formatted table using tabulate.
 
-📸 Example Output:
-
-╒═════════╤═══════════╤════════╤════════════╕
-│ ItemID  │ Name      │ Price  │ Category   │
-╞═════════╪═══════════╪════════╪════════════╡
-│ 1       │ Pizza     │ 250.0  │ Fast Food  │
-│ 2       │ Pasta     │ 180.0  │ Italian    │
-╘═════════╧═══════════╧════════╧════════════╛
 
 3. Customer Management
 
@@ -61,14 +53,6 @@ Add Customer → Store customer details (Name, Phone, Email).
 
 View Customers → Display customers in a table.
 
-📸 Example Output:
-
-╒════════════╤═══════════╤════════════╤══════════════════╕
-│ CustomerID │ Name      │ Phone      │ Email            │
-╞════════════╪═══════════╪════════════╪══════════════════╡
-│ 1          │ Rahul     │ 9876543210 │ rahul@gmail.com  │
-│ 2          │ Priya     │ 8765432109 │ priya@yahoo.com  │
-╘════════════╧═══════════╧════════════╧══════════════════╛
 
 4. Order Management
 
@@ -76,29 +60,14 @@ Place Order → Links a customer + menu item + quantity.
 
 View Orders → Displays all orders with customer & item details.
 
-📸 Example Output:
 
-╒══════════╤═══════════╤══════════╤══════════╤════════════════════╕
-│ OrderID  │ Customer  │ Item     │ Quantity │ OrderDate          │
-╞══════════╪═══════════╪══════════╪══════════╪════════════════════╡
-│ 1        │ Rahul     │ Pizza    │ 2        │ 2025-08-29 12:30   │
-│ 2        │ Priya     │ Pasta    │ 1        │ 2025-08-29 13:10   │
-╘══════════╧═══════════╧══════════╧══════════╧════════════════════╛
 
 5. Daily Sales Report
 
 Calculates total items sold & revenue for the current date.
 
-📸 Example Output:
 
-╒══════════╤═════════════╤═══════════════╕
-│ Item     │ Total Sold  │ Revenue (₹)   │
-╞══════════╪═════════════╪═══════════════╡
-│ Pizza    │ 2           │ 500.0         │
-│ Pasta    │ 1           │ 180.0         │
-╘══════════╧═════════════╧═══════════════╛
-
-🐍 Python Modules Used
+## 🐍 Python Modules Used
 1. sqlite3 (Built-in)
 
 Provides SQLite database connectivity.
@@ -128,7 +97,7 @@ Used for clearing the console to improve user interface.
 
 import os
 
-🚀 How to Run
+## 🚀 How to Run
 
 Save all project files.
 
@@ -155,9 +124,10 @@ Export reports to Excel/CSV
 
 Add Admin login system
 
-📚 Author
+## 📚 Author
 
 👨‍💻 Developed by SHREYANSH JAISWAL 
 📌 Language: Python 3.x
 📌 Database: SQLite3
+
 
